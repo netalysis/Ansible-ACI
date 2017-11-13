@@ -1,0 +1,11 @@
+---
+# Configure a Fabric POD-policy group
+
+fabricPodPGrp: 
+ attributes: 
+  name: PodPolicy
+ children: 
+  - 
+   fabricRsPodPGrpBGPRRP: 
+    attributes: 
+     tnBgpInstPolName: default
